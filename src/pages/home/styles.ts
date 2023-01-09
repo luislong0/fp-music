@@ -25,4 +25,8 @@ export const MediumAndSmallContainer = styled('div', {
   display: 'flex',
   flexDirection: 'column',
   gap: '2rem',
+
+  '@bp1': {
+    display: 'none',
+  },
 })
